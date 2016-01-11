@@ -1,0 +1,75 @@
+<html>
+<head>
+<title>fakemytrip</title>
+<script src="./../js/jquery-2.2.0.js"></script>
+<link type="text/css" rel="stylesheet" href="./../css/materialize.min.css"  media="screen,projection"/>
+<link rel="stylesheet" type="text/css" href="./../css/index.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<script type="text/javascript" src="./../js/materialize.min.js"></script>
+<script type="text/javascript" src="./../js/index.js"></script>
+</head>
+<body>
+ <nav>
+    <div class="nav-wrapper">
+      <a href="./index.html" class="brand-logo"><label class="fontStyle" style="font-style:italic;">fakemytrip</label></a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+      	<li class="signUp"><a href="#!">Sign UP</a></li>
+      	<li class="signIn"><a href="#!">Sign IN</a></li>
+        <li class="open"><a href="#!">About</a></li>
+        <li><a target="_blank" href="./contact.html">Contact Us</a></li>
+       
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+      	<li class="signUp"><a href="#!">Sign UP</a></li>
+      	<li class="signIn"><a href="#!">Sign IN</a></li>
+        <li class="open"><a href="#!">About</a></li>
+        <li><a target="_blank" href="./contact.html">Contact Us</a></li>
+        
+      </ul>
+    </div>
+  </nav>
+<div class="container" id="contents">
+<div class="row">
+      <div class="col s6" id="left"><label class="advertise">Login or Sign Up to write your stories or read others</label>
+      <div class="imageContainer"></div>
+	  </div>
+      <div class="col s6" id="right"><label class="rightSignIn" >Login Here!!</label>
+      <label class="rightSignUp">Sign Up Here!!</label>
+      <form action="profile.html" class="rightSignUp" onsubmit="return validate()">
+      Name :<input type="text" placeholder="enter your name" name="nme">
+      User Name :<input type="text" placeholder="enter a username name" name="uname" id="userSignUp">
+      Password:<input type="password" name="pwd" placeholder="enter your password" min=6 id="pwd">
+      Confirm Password:<input type="password" name="cpwd" placeholder="re-enter password" min=6 id="cpwd">
+      Birthdate:<input type="date" name="bDay">
+      <!--<label for="male">Male</label>
+  	  <input type="radio" name="gender" id="male" value="male">
+	  <label for="female">Female</label>
+      <input type="radio" name="gender" id="female" value="female"><br>
+      -->
+      <input type="submit" value="SignUp" id="signedUp">
+      
+      </form>
+      <form action="profile.html" class="rightSignIn">
+      Username: <input type="text" placeholder="enter the username" name="uname" id="userSignIn">
+      Password: <input type="password" placeholder="enter the password" name="pwd" id="userPwd"><br>
+      <input type="submit" value="signin" id="signedIn">
+      </form>
+      
+      </div>
+
+      
+</div>
+</div>
+<div id="dialogue">
+<a href="#"><img id="close" src="./../images/close.jpg"></a>
+<p class="container">
+	The novel opens in the year 1952. Saboor, an impoverished farmer from the fictional village of Shadbagh, decides to sell his three-year-old daughter Pari to a wealthy, childless couple in Kabul. The choice devastates his ten-year-old son, Abdullah, who raised Pari following their mother's death in childbirth.
+
+Subsequent chapters expound on how the arrangement came to be: the children's stepmother, Parwana, grew up as the less-favored child to her beautiful twin sister Masooma. One day, in a flash of jealousy, she caused Masooma to suffer a debilitating injury that resulted in paraplegia. Parwana subsequently spent several years caring for her sister until the latter asked her to help her commit suicide and to then marry Saboor. Their older brother, Nabi, left to work for Mr. Wahdati, a wealthy man in Kabul, and became infatuated with his wife, Nila. After Nila expressed dismay about her inability to have children, Nabi arranged for Pari to be sold to the couple.
+</p>
+</div>
+
+
+</body>
+</html>

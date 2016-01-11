@@ -1,0 +1,101 @@
+body{
+	background-color: #3399FF;
+	background-image: url("./../images/indexBackground1.jpg");
+	background-image-width: 100%; 
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:0 0 0 0;
+}
+.col#right{
+	margin-top: 5%;
+	border:0.2em solid #C0C0C0;
+	border-radius: 0.8em;
+	background-color: rgba(204,204,204,0.5);
+}
+
+
+
+
+.rightSignUp{
+	margin-top: 5%;
+	border:0.2em solid #C0C0C0;
+	border-radius: 0.8em;
+	background-color: rgba(204,204,204,0.5);
+	display:none;
+}
+
+
+.fontStyle{
+
+	font-weight: bold;
+	font-family: sans, Times, "Times New Roman", Georgia, serif;
+	font-style: normal;
+	font-size: 100%;
+}
+.signIn{
+
+	display:none;
+}
+#right{
+
+	font-weight: bold;
+	font-family: sans, Times, "Times New Roman", Georgia, serif;
+	font-style: normal;
+	font-size: 100%;
+}
+.col#left{
+
+	margin-top: 3%;
+}
+.advertise{
+
+	font-weight: bold;
+	font-family: sans, Times, "Times New Roman", Georgia, serif;
+	font-style: normal;
+	font-size: 250%;
+}
+.imageContainer{
+
+	width:100%;
+	height:50%;
+}
+.imageContainer > img{
+
+	width:auto;
+	height:auto;
+	max-height: 100%;
+	max-width: 100%;
+}
+#dialogue{
+	width:50%;
+	position:fixed;
+
+	top:20%;
+	left:20%;
+	background-color: pink;
+	border:solid;
+	display:none;
+	z-index: 2;
+}
+#close{
+
+	float:right;
+	height: 5%;
+	width: 5%;
+}
+#contactContent{
+
+	background-color: rgba(255,255,255,0.7);
+	border:0.2em solid pink;
+	height:90%;
+}
+input[type="radio"]{
+
+	all: initial;
+  * {
+    all: unset;
+  }
+}
+
+
+
