@@ -18,14 +18,14 @@
       	<li class="signIn"><a href="#!">Sign IN</a></li>
         <li class="open"><a href="#!">About</a></li>
         <li><a target="_blank" href="./contact.html">Contact Us</a></li>
-       
+
       </ul>
       <ul class="side-nav" id="mobile-demo">
       	<li class="signUp"><a href="#!">Sign UP</a></li>
       	<li class="signIn"><a href="#!">Sign IN</a></li>
         <li class="open"><a href="#!">About</a></li>
         <li><a target="_blank" href="./contact.html">Contact Us</a></li>
-        
+
       </ul>
     </div>
   </nav>
@@ -37,28 +37,28 @@
       <div class="col s6" id="right"><label class="rightSignIn" >Login Here!!</label>
       <label class="rightSignUp">Sign Up Here!!</label>
       <form action="profile.html" class="rightSignUp" onsubmit="return validate()">
-      Name :<input type="text" placeholder="enter your name" name="nme">
-      User Name :<input type="text" placeholder="enter a username name" name="uname" id="userSignUp">
-      Password:<input type="password" name="pwd" placeholder="enter your password" min=6 id="pwd">
-      Confirm Password:<input type="password" name="cpwd" placeholder="re-enter password" min=6 id="cpwd">
-      Birthdate:<input type="date" name="bDay">
-      <!--<label for="male">Male</label>
-  	  <input type="radio" name="gender" id="male" value="male">
-	  <label for="female">Female</label>
-      <input type="radio" name="gender" id="female" value="female"><br>
-      -->
-      <input type="submit" value="SignUp" id="signedUp">
-      
+        Name :<input type="text" placeholder="enter your name" name="nme" id="screenName">
+        User Name :<input type="text" placeholder="enter a username name" name="uname" id="userSignUp">
+        Password:<input type="password" name="pwd" placeholder="enter your password" min=6 id="pwd">
+        Confirm Password:<input type="password" name="cpwd" placeholder="re-enter password" min=6 id="cpwd">
+        Birthdate:<input type="date" name="bDay" id="bDate">
+
+    	  <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label>
+        <br>
+        <input type="submit" value="SignUp" id="signedUp">
       </form>
-      <form action="profile.html" class="rightSignIn">
+      <form action="profile.html" class="rightSignIn" onsubmit="return validateSignIn()">
       Username: <input type="text" placeholder="enter the username" name="uname" id="userSignIn">
       Password: <input type="password" placeholder="enter the password" name="pwd" id="userPwd"><br>
       <input type="submit" value="signin" id="signedIn">
       </form>
-      
+
       </div>
 
-      
+
 </div>
 </div>
 <div id="dialogue">

@@ -1,7 +1,7 @@
 body{
 	background-color: #3399FF;
 	background-image: url("./../images/indexBackground1.jpg");
-	background-image-width: 100%; 
+	background-image-width: 100%;
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-position:0 0 0 0;
@@ -74,7 +74,7 @@ body{
 	left:20%;
 	background-color: pink;
 	border:solid;
-	display:none;
+	visibility: hidden;
 	z-index: 2;
 }
 #close{
@@ -96,6 +96,3 @@ input[type="radio"]{
     all: unset;
   }
 }
-
-
-
